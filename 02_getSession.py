@@ -29,7 +29,7 @@ f2.write(str(url))
 f2.close()
 
 element = driver.find_element_by_id("account")
-element.send_keys("your github account")
+element.send_keys("your account")
 e = driver.find_element_by_id("pwd")
 e.send_keys("your psw")
 e = driver.find_element_by_id("loginBt")
