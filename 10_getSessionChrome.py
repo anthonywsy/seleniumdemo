@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get('http://mp.weixin.qq.com')
 #print driver.title
@@ -28,9 +28,9 @@ f2.write(str(url))
 f2.close()
 
 element = driver.find_element_by_id("account")
-element.send_keys("anthony-wang@139.com")
+element.send_keys("your account")
 e = driver.find_element_by_id("pwd")
-e.send_keys("Mp.Weixin.123")
+e.send_keys("your password")
 e = driver.find_element_by_id("loginBt")
 e.click()
 
