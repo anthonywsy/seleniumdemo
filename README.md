@@ -28,7 +28,7 @@ HOW IT WORKS
   
 THANKS TO  
 Thanks to sphinx. Because of this project, we don't need to pay the online speech-to-text service like Google or IBM provides.  
-Thanks the idea from anthony(at)nicodemus.club  
+Thanks for the idea from anthony(at)nicodemus.club  
   
 CONTACT US  
 Any question please email to anthony.wsy(at)gmail.com  
