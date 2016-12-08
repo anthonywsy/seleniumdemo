@@ -11,6 +11,7 @@ echo $testFile1
 resultFile1="$testFile1.txt"	
 echo $resultFile1
 pocketsphinx_continuous -lm $LMDIR -dict $DICTDIR -hmm $HMMDIR -infile $testFile1 > $resultFile1
+#-logfn sphinxdemo.log
 
 testFile2="/home/anthony/Git/pocketsphinx/test/data/cards/001.wav"
 echo $testFile2
